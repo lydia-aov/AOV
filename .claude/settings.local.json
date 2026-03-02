@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(unzip -o \"b795b0f4-90b0-439b-a31c-3c1f56243c39_ExportBlock-b8ac880b-8521-415b-8e19-27de392225cf.zip\" -d notion_export)",
+      "Bash(unzip -l notion_export/ExportBlock-b8ac880b-8521-415b-8e19-27de392225cf-Part-1.zip)",
+      "Bash(unzip -o \"notion_export/ExportBlock-b8ac880b-8521-415b-8e19-27de392225cf-Part-1.zip\" -d notion_export/content)",
+      "Bash(cat /c/Users/Avada/Downloads/notion_export/content/*.md)"
+    ]
+  }
+}
