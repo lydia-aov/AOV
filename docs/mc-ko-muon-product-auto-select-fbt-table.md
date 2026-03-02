@@ -8,8 +8,6 @@
 
 MC doesn't want products to be auto-selected in the FBT (Frequently Bought Together) table.
 
-![FBT table with auto-selected products](image.png)
-
 ---
 
 ## Root Cause
@@ -20,14 +18,8 @@ MC doesn't want products to be auto-selected in the FBT (Frequently Bought Toget
 
 ## Solution
 
-CS can enable the **"Allow untick FBT"** option in `dev_zone`:
+1. CS accesses dev_zone to enable **"Allow unselect in FBT"** in the Control Panel > Admin section.
 
-![Enable Allow untick FBT in dev_zone](image%201.png)
+2. Once enabled, MC can go to the **FBT campaign editor > Step 2: Display setting** and manually toggle **"Auto-select offered items"** on or off.
 
-Once enabled, MC can manually toggle the auto-select behavior in FBT settings:
-
-![FBT setting toggle](image%202.png)
-
-After disabling the feature, offer items on the front store will be automatically unticked:
-
-![Front store items unticked](image%203.png)
+3. After disabling, offer items on the front store will be automatically unticked.
