@@ -13,6 +13,10 @@ Tổng hợp FAQ, User guide và các kiến thức chung liên quan đến nhó
 - Dùng emoji để highlight các điểm quan trọng
 
 ## Cấu trúc thư mục
-- docs/ — tài liệu
+- docs/ — FAQ và User guide, phân loại theo từng app:
+  - docs/Bundle/ — Bundle app
+  - docs/FG/ — Free Gift
+  - docs/PPU/ — Post Purchase Upsell
+  - docs/CD/ — Cart Drawer
 - data/ — dữ liệu
 - reports/ — báo cáo
